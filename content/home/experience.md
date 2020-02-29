@@ -18,27 +18,41 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Research Intern"
+  company = "Yandex"
+  company_url = "https://www.ya.ru"
+  location = "Moscow"
+  date_start = "2016-06-01"
+  date_end = "2017-06-01"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Worked with [Prof. Andrey Ustyuzhanin](https://www.hse.ru/en/org/persons/147343283) in close collaboration with CERN.
+
+  * Worked on muon tracks simulation with Generative Adversarial Networks
+  * Developed efficient architecture (50x to 30%  FLOPS speedup, depending on the problem)
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Software Engineering Intern"
+  company = "ProtonMail"
+  company_url = "https://www.protonmail.com"
+  location = "Geneva"
+  date_start = "2017-06-01"
+  date_end = "2017-08-31"
+  description = """
+  * Applied LSH for SPAM detection
+  * Developed the system for import/export of emails for the ProtonMail system
+  """
+
+[[experience]]
+  title = "PhD Student / Research Assistant"
+  company = "ETH Zurich"
+  company_url = "https://prs.igp.ethz.ch"
+  location = "Zurich"
+  date_start = "2017-10-03"
+  description = """
+  Research areas: Deep Learning, Tensors, Computer Vision
+
+  Advisor: Prof. Konrad Schindler
+  """
 
 +++
