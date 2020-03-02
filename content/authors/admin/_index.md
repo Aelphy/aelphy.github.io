@@ -32,6 +32,7 @@ interests:
 - Paragliding
 - DIY (3D modelling, 3D printing, soldering, other)
 - Hacking
+- Swimming, Running, Snowboarding
 
 education:
   courses:
