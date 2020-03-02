@@ -26,6 +26,13 @@ interests:
 - Tensors
 - Computer Vision
 
+- =====================
+
+- SAMBO / Judo / BJJ
+- Paragliding
+- DIY (3D modelling, 3D printing, soldering, other)
+- Hacking
+
 education:
   courses:
   - course: PhD in Computer Science
