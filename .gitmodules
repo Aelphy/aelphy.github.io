@@ -1,6 +1,3 @@
-[submodule "themes/academic"]
-	path = themes/academic
-	url = https://github.com/gcushen/hugo-academic.git
 [submodule "aelphy.github.io"]
 	path = aelphy.github.io
 	url = https://github.com/aelphy/aelphy.github.io.git

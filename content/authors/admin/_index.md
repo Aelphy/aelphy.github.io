@@ -82,7 +82,7 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student at [ETH Zürich](https://ethz.ch) in the [Photogrammetry and Remote Sensing Lab](https://prs.igp.ethz.ch), supervised by [Prof. Dr. Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986).
+I am a PhD student at [ETH Zurich](https://ethz.ch) in the [Photogrammetry and Remote Sensing Lab](https://prs.igp.ethz.ch), supervised by [Prof. Dr. Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986).
 
 Before moving to Switzerland I completed my masters in Moscow where I graduated with honors from [Moscow Institute of Physics and Technology (MIPT)](https://en.wikipedia.org/wiki/Moscow_Institute_of_Physics_and_Technology) and from [Skolkovo Institute of Science and Technology (Skoltech)](http://www.skoltech.ru/en)
 
