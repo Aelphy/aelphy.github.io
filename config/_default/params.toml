@@ -82,7 +82,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "mikhailu@ethz.ch"
+# email = "mikhailu@ethz.ch"
 phone = ""
 
 # Address
@@ -266,3 +266,9 @@ plugins_js  = []
 [marketing]
   google_analytics = "UA-92998877-1"
   google_tag_manager = ""
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/

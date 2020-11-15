@@ -1,51 +1,45 @@
 #!/usr/bin/env bash
 
-# Source Themes Academic: Theme updater
+# Wowchemy Updater
 # Checks for available updates and then asks to install any updates.
-# https://sourcethemes.com/academic/
+# https://wowchemy.com/docs/update/
 #
-# Command: bash ./update_academic.sh
+# Command: bash ./update_wowchemy.sh
 
 # Check for prerequisites.
-if [ ! -d .git ]; then
-  echo "ERROR: This tool is for Git repositories only."
+if [ ! -d content ]; then
+  echo "ERROR: `cd` into your website folder before running this tool."
   exit 1;
 fi
 
-function view_update () {
-  echo -e "Checking for updates...\n"
-  cd themes/academic
-  git fetch
-  git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
-  cd ../../
+# Update the Wowchemy Hugo module
+function update_wowchemy () {
+  # Update Wowchemy to the latest master version
+  echo -e "Updating Wowchemy to the latest master version...\n"
+  hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master
+  hugo mod tidy
 }
 
-# Function to update Academic
-function do_update () {
-  # Apply any updates
-  git submodule update --remote --merge
-
+# Update Netlify config
+function update_netlify () {
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
-    # Postfix '.0' to Hugo min_version as sadly it doesn't map to a precise semantic version.
-    version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml | tr -d '"')
-    version="${version}.0"
+    curl -o "tmp_get_version" https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/wowchemy/config.yaml
+    version=$(sed -n 's/^[[:space:]]*min: //p' "tmp_get_version" | tr -d "'")
+    version="${version}"
     echo "Set Netlify Hugo version to v${version}"
     sed -i.bak -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml && rm -f ./netlify.toml.bak
+    rm tmp_get_version
   fi
-
-  echo
-  echo "View the release notes at: https://sourcethemes.com/academic/updates"
-  echo "If there are breaking changes, the config and/or front matter of content" \
-  "may need upgrading by following the steps in the release notes."
 }
 
-# Display currently installed version (although could be between versions if updated to master rather than tag)
-version=$(sed -n 's/^version = "//p' themes/academic/data/academic.toml)
-echo -e "Source Themes Academic v$version\n"
+# Perform update
+update_wowchemy
+update_netlify
 
-# Display available updates
-view_update
-
-# Apply any updates
-do_update
+echo
+echo "If there are breaking changes, the site structure, config, and/or front matter of content" \
+"may need upgrading by following the steps in the relevant consecutive release notes."
+echo
+echo "View the update guide at: https://wowchemy.com/docs/update/"
+echo "View the latest release notes at: https://wowchemy.com/updates/"
