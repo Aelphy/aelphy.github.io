@@ -33,6 +33,8 @@ interests:
 - DIY (3D modelling, 3D printing, soldering, other)
 - Hacking
 - Swimming, Running, Snowboarding
+- Chess
+- Go
 
 education:
   courses:

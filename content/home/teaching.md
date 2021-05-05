@@ -23,5 +23,5 @@ I taught the following courses:
   * Image Interpretation, Fall 2017, 2018, 2019, 2020, Zurich, Switzerland
 
 - Course instructor.
-  * Introduction to Deep Learning, May 2017, Yerevan, Armenia
+  * Introduction to Deep Learning, May 2017, April 2021, Yerevan, Armenia
   * Introduction to Scientific Computing, Fall 2018, 2019, 2020, Zurich, Switzerland
