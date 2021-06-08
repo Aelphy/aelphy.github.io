@@ -1,10 +1,6 @@
 ---
 # Display name
-name: Mikhail Usvyatsov
-
-# Username (this should match the folder name)
-authors:
-- admin
+title: Mikhail Usvyatsov
 
 # Is this the primary user of the site?
 superuser: true
@@ -77,11 +73,8 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "mikhailu@ethz.ch"
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 ---
 
 I am a PhD student at [ETH Zurich](https://ethz.ch) in the [Photogrammetry and Remote Sensing Lab](https://prs.igp.ethz.ch), supervised by [Prof. Dr. Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986).
