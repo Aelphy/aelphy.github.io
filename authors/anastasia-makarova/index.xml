@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anastasia Makarova | Misha Usvyatsov</title>
+    <link>/authors/anastasia-makarova/</link>
+      <atom:link href="/authors/anastasia-makarova/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anastasia Makarova</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Misha Usvyatsov</copyright><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9c40a82c0e97516fa9b257e5ae07e2a0_29390_512x512_fill_lanczos_center_3.png</url>
+      <title>Anastasia Makarova</title>
+      <link>/authors/anastasia-makarova/</link>
+    </image>
+    
+    <item>
+      <title>Cherry-Picking Gradients: Learning Low-Rank Embeddings of Visual Data via Differentiable Cross-Approximation</title>
+      <link>/publication/usvyatsov-2021-cpic/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/usvyatsov-2021-cpic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Wieser | Misha Usvyatsov</title>
+    <link>/authors/andreas-wieser/</link>
+      <atom:link href="/authors/andreas-wieser/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Wieser</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Misha Usvyatsov</copyright><lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu9c40a82c0e97516fa9b257e5ae07e2a0_29390_512x512_fill_lanczos_center_3.png</url>
+      <title>Andreas Wieser</title>
+      <link>/authors/andreas-wieser/</link>
+    </image>
+    
+    <item>
+      <title>PREDATOR: Registration of 3D Point Clouds with Low Overlap</title>
+      <link>/publication/huang-2021-predator/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/huang-2021-predator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1692 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Misha Usvyatsov" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="How I fixed Keychron K3 brown switch." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/k3e3_fix/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(0, 136, 204)" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'">
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.23f205cce05da92c07258a1b0e5e43b3.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92998877-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-92998877-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu9c40a82c0e97516fa9b257e5ae07e2a0_29390_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9c40a82c0e97516fa9b257e5ae07e2a0_29390_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/post/k3e3_fix/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Misha Usvyatsov" />
+  <meta property="og:url" content="/post/k3e3_fix/" />
+  <meta property="og:title" content="Fixing Keychron K3 brown switch | Misha Usvyatsov" />
+  <meta property="og:description" content="How I fixed Keychron K3 brown switch." /><meta property="og:image" content="/post/k3e3_fix/featured.png" />
+    <meta property="twitter:image" content="/post/k3e3_fix/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-02-25T11:14:05&#43;01:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-02-25T11:14:05&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/k3e3_fix/"
+  },
+  "headline": "Fixing Keychron K3 brown switch",
+  
+  "image": [
+    "/post/k3e3_fix/featured.png"
+  ],
+  
+  "datePublished": "2021-02-25T11:14:05+01:00",
+  "dateModified": "2021-02-25T11:14:05+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Misha Usvyatsov"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Misha Usvyatsov",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/media/icon_hu9c40a82c0e97516fa9b257e5ae07e2a0_29390_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "How I fixed Keychron K3 brown switch."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Fixing Keychron K3 brown switch | Misha Usvyatsov</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="80783de95f082d2b8e277fac43f4d204" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.f576c78741b69f0746956feb3feacdee.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Misha Usvyatsov</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Misha Usvyatsov</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Fixing Keychron K3 brown switch</h1>
+
+  
+  <p class="page-subtitle">K3E3</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 25, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 346px;">
+  <div style="position: relative">
+    <img src="/post/k3e3_fix/featured_hud4543edd0e2c180ba7027f3d002f2a32_139978_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <span class="article-header-caption">(c) keychron.com</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I backed Keychron K3 on Kickstarter and after a long wait, I received the keyboard with brown optical switches (K3E3 modification) which is pretty awesome except for one nasty tiny detail: the keystroke registers far before the tactile bump.</p>
+<p>Here is the illustration of the fixing method which was also described on <a href="https://www.reddit.com/r/Keychron/comments/lksey3/possible_fix_for_k3_optical_browns_being_too/" target="_blank" rel="noopener">reddit</a>.</p>
+<p>The first switch took me some time to understand how it works. It is not very difficult to disassemble, but it&rsquo;s easy to lose some parts. So before the start, I highly recommend palcing the patient switch inside a highlighted cardboard box and keep it there while working on it.
+Seriously, consider work inside the cardboard box. You might lose very tinny parts like spring or stem otherwise, they can jump away easily and the box will help to contain them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-keychron-brown-optical-switch">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Keychron brown optical switch" srcset="
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_c89e90574accfd58b13b54b919471d4b.jpg 400w,
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_90697919969021b66f6093101f6b0b67.jpg 760w,
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_c89e90574accfd58b13b54b919471d4b.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Keychron brown optical switch
+    </figcaption></figure></p>
+<ol>
+<li>
+<p>Take a look at the bottom of the switch:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-bottom-of-k3e3-switch">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Bottom of K3E3 switch" srcset="
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_7d348f0ab93e4d12521f5f7e8d32e7e8.jpg 400w,
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_548623f0c0d61f8c2ebe2b07fb2d0ec1.jpg 760w,
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_7d348f0ab93e4d12521f5f7e8d32e7e8.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Bottom of K3E3 switch
+    </figcaption></figure>
+The red circle shows where the stem which breaks the light beam when the key is pressed. We will remove it. You don&rsquo;t need to open the switch yet.</p>
+</li>
+<li>
+<p>Press the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-pressed-k3e3-switch">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Pressed K3E3 switch" srcset="
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_22857d8fe7e894d45b675f1545b94241.jpg 400w,
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_155503a3f211cd7b773a1e0c01ac0afd.jpg 760w,
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_22857d8fe7e894d45b675f1545b94241.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Pressed K3E3 switch
+    </figcaption></figure>
+The stem will move closer to the bottom of the switch.</p>
+</li>
+<li>
+<p>Use tweezers or another appropriate tool to press the stem out of the housing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-top-of-k3e3-switch">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Top of K3E3 switch" srcset="
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_d016cb66435d4162a5a384c2f26dbeb7.jpg 400w,
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_87b8f76ce05d723b8f123448f7748e6b.jpg 760w,
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_d016cb66435d4162a5a384c2f26dbeb7.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Top of K3E3 switch
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-taking-the-stem-out">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Taking the stem out" srcset="
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_e0c375f2211e77db494c99518caa7502.jpg 400w,
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_903fc509d134d98a619cd2717a35df72.jpg 760w,
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_e0c375f2211e77db494c99518caa7502.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Taking the stem out
+    </figcaption></figure>
+While taking the stem out keep the switch in your hand and make sure that the stem will fall out in a box / safe place.</p>
+</li>
+<li>
+<p>Keep the stem in a safe place for a moment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-stem-of-k3e3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Stem of K3E3" srcset="
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_9d8750ab31b1f6ff7215d6f184c21d27.jpg 400w,
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_213e3eb63c0a17d5111690604c71372e.jpg 760w,
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_9d8750ab31b1f6ff7215d6f184c21d27.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Stem of K3E3
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-stem-and-spring-separated">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Stem and spring separated" srcset="
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_3389390f07fcc5d881375b8e6ea032d8.jpg 400w,
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_b9c6cafcd738fdf1e57c1b719cde2a31.jpg 760w,
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_3389390f07fcc5d881375b8e6ea032d8.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Stem and spring separated
+    </figcaption></figure></p>
+</li>
+<li>
+<p>Now use tweezers to open the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-opening-of-k3e3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Opening of K3E3" srcset="
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_70750bf6247920daa974602d3128bf13.jpg 400w,
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_9dd17221c3c78e0b32be300dd28f1349.jpg 760w,
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_70750bf6247920daa974602d3128bf13.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Opening of K3E3
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-opened-of-k3e3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Opened of K3E3" srcset="
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_26a3e5f44283ab7b86278991c8cc9628.jpg 400w,
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_55d515ad5a14c0e43a6d5a9c2905f0c4.jpg 760w,
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_26a3e5f44283ab7b86278991c8cc9628.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Opened of K3E3
+    </figcaption></figure>
+Don&rsquo;t move the spring that you see in the open switch, they need to be left in their places. The big spring is creating the actuation force. The small spring is responsible for creating a tactile bump.</p>
+</li>
+<li>
+<p>Now take the stem without the spring and insert from the bottom of the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-inserting-the-stem-into-k3e3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Inserting the stem into K3E3" srcset="
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_d7dd0cc0fabce8a0ed6e2ea6130c894e.jpg 400w,
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_fb8116f75f590ad9d9cc73424e9300b5.jpg 760w,
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_d7dd0cc0fabce8a0ed6e2ea6130c894e.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Inserting the stem into K3E3
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-opened-of-k3e3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Opened of K3E3" srcset="
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_7e0fed95ca5b241a862bb9a8e1c9d7d3.jpg 400w,
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_81fbf30661c33687c4e80a397b6c9391.jpg 760w,
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_7e0fed95ca5b241a862bb9a8e1c9d7d3.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Opened of K3E3
+    </figcaption></figure>
+Then place the small spring from the inner side of the switch bottom.</p>
+</li>
+<li>
+<p>Now pre-insert the brown part back on the place, but do not press fully yet, we need to move the tactile spring to a correct position.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-preinsertion">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Preinsertion" srcset="
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_8beb200d66ee29949774bdf3ae83d659.jpg 400w,
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_a1f606aaae1744e995915d82d4321c2c.jpg 760w,
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_8beb200d66ee29949774bdf3ae83d659.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Preinsertion
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-placing-the-tactile-spring">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Placing the tactile spring" srcset="
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_dcb6918243cd75d3f9c652531d7fc577.jpg 400w,
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_d0674299e67f62f4936293bdfe9276d9.jpg 760w,
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_dcb6918243cd75d3f9c652531d7fc577.jpg"
+               width="300"
+               height="570"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Placing the tactile spring
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-full-press">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Full press" srcset="
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_fb1bfca10a3fcd8a4658132b81fa7995.jpg 400w,
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_9dbf38dc207cdfe27a860dcbcbbea87d.jpg 760w,
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_fb1bfca10a3fcd8a4658132b81fa7995.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Full press
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-closing">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Closing" srcset="
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_e9ae62a2da5daa24fd3031a2855c6314.jpg 400w,
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_b9f75c482f5f0e5d9fd3218780511bb8.jpg 760w,
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_e9ae62a2da5daa24fd3031a2855c6314.jpg"
+               width="300"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Closing
+    </figcaption></figure>
+When fully pressed and tactile spring on place secure the stem in the brown part pressing from the bottom side with tweezers.
+And finally, close the switch fully. The upgrade is finished.</p>
+</li>
+</ol>
+<p>This post was typed on the upgraded K3E3. The fix took about 4 hours and improved typing speed by a factor of two and reduced the error rate by a factor of 6.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/k3e3_fix/&amp;text=Fixing%20Keychron%20K3%20brown%20switch" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/k3e3_fix/&amp;t=Fixing%20Keychron%20K3%20brown%20switch" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Fixing%20Keychron%20K3%20brown%20switch&amp;body=/post/k3e3_fix/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/k3e3_fix/&amp;title=Fixing%20Keychron%20K3%20brown%20switch" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Fixing%20Keychron%20K3%20brown%20switch%20/post/k3e3_fix/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/k3e3_fix/&amp;title=Fixing%20Keychron%20K3%20brown%20switch" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0ce8cb07a6ba8d52a2c3dcec3b0ed149_94564_270x270_fill_q75_lanczos_center.jpg" alt="Misha Usvyatsov">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Misha Usvyatsov</h5>
+      <h6 class="card-subtitle">PhD student</h6>
+      <p class="card-text">I am working on tensor decompositions applications for visual data analysis with Deep Learning.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=Z8TFiEEAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/aelphy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/CV_Academia.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Misha Usvyatsov
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/ruby python go c c++.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.8859d3cf6e5d748215fea2814e2e9c7f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
