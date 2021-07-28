@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mikhail Usvyatsov
+title: Misha Usvyatsov
 
 # Is this the primary user of the site?
 superuser: true

@@ -21,9 +21,15 @@ abstract:
 # Summary. An optional shortened abstract.
 summary: "Neural architecture that allows for simultaneous optimization of computational cost with per-pixel cross-entropy loss."
 
-url_pdf: https://arxiv.org/pdf/1709.08605.pdf
-url_code: https://github.com/Aelphy/muon_trigger
-url_slides: https://indico.cern.ch/event/505613/contributions/2227267/attachments/1346831/2031136/Oral-261.pdf
+links:
+- name: PDF
+  url: https://arxiv.org/pdf/1709.08605.pdf
+- name: Slides
+  url: https://indico.cern.ch/event/505613/contributions/2227267/attachments/1346831/2031136/Oral-261.pdf
+- icon: github
+  icon_pack: fab
+  name: Code
+  url: https://github.com/Aelphy/muon_trigger
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -15,7 +15,7 @@ font_size: M
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: 'Web page of Mikhail Usvyatsov'
+description: 'Web page of Misha Usvyatsov'
 
 # Site header
 
@@ -106,6 +106,9 @@ map:
   provider: ''
   api_key: ''
   zoom: 15
+i_am_a_sponsor: true
+power_ups:
+  hide_generator: true
 marketing:
   google_analytics: 'UA-92998877-1'
   google_tag_manager: ''

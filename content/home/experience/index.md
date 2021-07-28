@@ -2,6 +2,13 @@
 active: true
 date_format: Jan 2006
 experience:
+- company: Google
+  company_url: https://www.google.com
+  date_end: '2021-10-15'
+  date_start: '2021-07-15'
+  description: "  Research Intern at Mobile Vision Group\n  "
+  location: Online
+  title: Research Intern
 - company: Apple
   company_url: https://www.apple.com
   date_end: '2020-08-13'
@@ -25,7 +32,7 @@ experience:
   date_start: '2017-06-01'
   description: "  * Applied LSH for SPAM detection\n  * Developed the system for import/export\
     \ of emails for the ProtonMail system\n  "
-  location: Geneva
+  location: Online
   title: Software Engineering Intern
 - company: ETH Zurich
   company_url: https://prs.igp.ethz.ch
