@@ -27,10 +27,9 @@ interests:
 - SAMBO / Judo / BJJ
 - Paragliding
 - DIY (3D modelling, 3D printing, soldering, other)
-- Hacking
-- Swimming, Running, Snowboarding
-- Chess
-- Go
+- Swimming, Snowboarding
+- Chess, Go
+- Coffee
 
 education:
   courses:
