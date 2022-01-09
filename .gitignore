@@ -4,5 +4,7 @@
 .idea/
 
 # Hugo
-resources/
+/resources/
 public/
+jsconfig.json
+node_modules/

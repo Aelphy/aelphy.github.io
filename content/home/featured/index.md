@@ -6,11 +6,12 @@ advanced:
 content:
   count: 0
   filters:
+    folders:
+      - publication
     category: ''
     publication_type: ''
     tag: ''
   order: desc
-  page_type: publication
 design:
   background: {}
   view: 3

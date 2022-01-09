@@ -6,6 +6,8 @@ advanced:
 content:
   count: 5
   filters:
+    folders:
+      - talk
     category: ''
     exclude_featured: false
     exclude_future: false
@@ -14,7 +16,6 @@ content:
     tag: ''
   offset: 0
   order: desc
-  page_type: talk
 design:
   background: {}
   view: 2
