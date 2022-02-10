@@ -38,7 +38,11 @@ address_format: en-us
 
 highlight: true
 highlight_languages:
-  - ruby python go c c++
+  - ruby
+  - python
+  - go
+  - c
+  - cpp
 math: true
 diagram: false
 privacy_pack: false
