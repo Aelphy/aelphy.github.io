@@ -17,60 +17,60 @@ organizations:
 bio: I am working on tensor decompositions applications for visual data analysis with Deep Learning.
 
 interests:
-- Deep Learning
-- Machine Learning
-- Tensors
-- Computer Vision
+  - Deep Learning
+  - Machine Learning
+  - Tensors
+  - Computer Vision
 
-- =====================
+  - =====================
 
-- SAMBO / Judo / BJJ
-- Paragliding
-- DIY (3D modelling, 3D printing, soldering, other)
-- Swimming, Snowboarding
-- Chess, Go
-- Coffee
+  - SAMBO / Judo / BJJ
+  - Paragliding
+  - DIY (3D modelling, 3D printing, soldering, other)
+  - Swimming, Snowboarding
+  - Chess, Go
+  - Coffee
 
 education:
   courses:
-  - course: PhD in Computer Science
-    institution: ETH Zurich, Zurich, Switzerland
-    year: Now
-  - course: MSc in Data Analysis
-    institution: Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia
-    year: 2017
-  - course: MSc in System Programming
-    institution: Moscow Institute of Physics and Technology (MIPT), Moscow, Russia
-    year: 2017
-  - course: BSc in Computer Science
-    institution: Innopolis University, Kazan, Russia
-    year: 2015
-  - course: B.Eng. in Electrical Engineering
-    institution: Ural Federal University, Ekaterinburg, Russia
-    year: 2014
+    - course: PhD in Computer Science
+      institution: ETH Zurich, Zurich, Switzerland
+      year: Now
+    - course: MSc in Data Analysis
+      institution: Skolkovo Institute of Science and Technology (Skoltech), Moscow, Russia
+      year: 2017
+    - course: MSc in System Programming
+      institution: Moscow Institute of Physics and Technology (MIPT), Moscow, Russia
+      year: 2017
+    - course: BSc in Computer Science
+      institution: Innopolis University, Kazan, Russia
+      year: 2015
+    - course: B.Eng. in Electrical Engineering
+      institution: Ural Federal University, Ekaterinburg, Russia
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=Z8TFiEEAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/aelphy
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: files/CV_Academia.pdf
+  - icon: envelope
+    icon_pack: fas
+    link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=Z8TFiEEAAAAJ&hl=en
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/aelphy
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
+  - icon: cv
+    icon_pack: ai
+    link: files/CV_Academia.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "mikhailu@ethz.ch"
+email: 'mikhailu@ethz.ch'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
