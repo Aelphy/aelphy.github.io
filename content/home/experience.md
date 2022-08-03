@@ -43,6 +43,14 @@ experience:
   date_start: '2020-04-13'
   description: "  Research Intern at Special Projects Group\n  "
   location: Zurich
+- title: Software Engineering Intern
+  company: ProtonMail
+  company_url: https://www.protonmail.com
+  date_end: '2017-08-31'
+  date_start: '2017-06-01'
+  description: "  * Applied LSH for SPAM detection\n  * Developed the system for import/export\
+    \ of emails for the ProtonMail system\n  "
+  location: Online
 - title: Research Intern
   company: Yandex
   company_url: https://www.ya.ru
@@ -53,14 +61,6 @@ experience:
     \ Generative Adversarial Networks\n  * Developed efficient architecture (50x to\
     \ 30%  FLOPS speedup, depending on the problem)\n  "
   location: Moscow
-- title: Software Engineering Intern
-  company: ProtonMail
-  company_url: https://www.protonmail.com
-  date_end: '2017-08-31'
-  date_start: '2017-06-01'
-  description: "  * Applied LSH for SPAM detection\n  * Developed the system for import/export\
-    \ of emails for the ProtonMail system\n  "
-  location: Online
 
 design:
   columns: '2'
