@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Misha Usvyatsov</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 10 Jul 2021 11:14:05 +0100</lastBuildDate>
+    <image>
+      <url>/media/icon_hued5d90fb46c664a563d402eb198cccb9_29588_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Large-scale 3D modeling of a village Mulegns</title>
+      <link>/post/mulegns/</link>
+      <pubDate>Sat, 10 Jul 2021 11:14:05 +0100</pubDate>
+      <guid>/post/mulegns/</guid>
+      <description>&lt;p&gt;An interactive reconstruction can be found &lt;a href=&#34;http://mulegns.herokuapp.com/mulegns.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fixing Keychron K3 brown switch</title>
+      <link>/post/k3e3_fix/</link>
+      <pubDate>Thu, 25 Feb 2021 11:14:05 +0100</pubDate>
+      <guid>/post/k3e3_fix/</guid>
+      <description>&lt;p&gt;I backed Keychron K3 on Kickstarter, and after a long wait, I received the keyboard with brown optical switches (K3E3 modification), which is pretty awesome except for one nasty tiny detail: the keystroke registers far before the tactile bump.&lt;/p&gt;
+&lt;p&gt;Here is the illustration of the fixing method, which was also described on &lt;a href=&#34;https://www.reddit.com/r/Keychron/comments/lksey3/possible_fix_for_k3_optical_browns_being_too/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reddit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The first switch took me some time to understand how it works. It is not very difficult to disassemble, but losing some parts is easy. So before the start, I highly recommend placing the patient switch inside a highlighted cardboard box and keeping it there while working on it.
+Seriously, consider working inside the cardboard box. You might lose very tinny parts like spring or stem; otherwise, they can jump away quickly, and the box will help to contain them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-keychron-brown-optical-switch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Keychron brown optical switch&#34; srcset=&#34;
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_837ff16ae8e8a0929afd86683da50b70.webp 400w,
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_89c9c02ca772855c07061b90adee805f.webp 760w,
+               /post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/switch_hud2818f6ffb5334c3011bd57d1fee02b4_354740_837ff16ae8e8a0929afd86683da50b70.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Keychron brown optical switch
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt; 1. Take a look at the bottom of the switch:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-bottom-of-k3e3-switch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Bottom of K3E3 switch&#34; srcset=&#34;
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_1e27c53552022e29f06cd1a5c2688053.webp 400w,
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_96b18fe51cefd7475740919ebdc47908.webp 760w,
+               /post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/stem1_hu462ed527d281af625a16cebf52439a79_85202_1e27c53552022e29f06cd1a5c2688053.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Bottom of K3E3 switch
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+The red circle shows where the stem breaks the light beam when the key is pressed. We will remove it. You don&amp;rsquo;t need to open the switch yet.&lt;/p&gt;
+&lt;p&gt; 2. Press the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-pressed-k3e3-switch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Pressed K3E3 switch&#34; srcset=&#34;
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_e12cac33edc4f7dcd7a8b8792cb6c52e.webp 400w,
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_27719e428ddbb5c0ea82153e915ec18c.webp 760w,
+               /post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/stem2_hu3ab2fd190ff78489cd8ce34a425a6d4b_86030_e12cac33edc4f7dcd7a8b8792cb6c52e.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Pressed K3E3 switch
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+The stem will move closer to the bottom of the switch.&lt;/p&gt;
+&lt;p&gt; 3. Use tweezers or another appropriate tool to press the stem out of the housing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-top-of-k3e3-switch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Top of K3E3 switch&#34; srcset=&#34;
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_1a812d9b3f330ec87c4bb7e604bedeb5.webp 400w,
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_c793d53e3121e1ff9c6d51bdd0ee50fc.webp 760w,
+               /post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/press1_hubc781b363bdac2596fc4a3bbb6ce3168_75467_1a812d9b3f330ec87c4bb7e604bedeb5.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Top of K3E3 switch
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-taking-the-stem-out&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Taking the stem out&#34; srcset=&#34;
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_1d8a3bc03577d85d3a9f7bf9989152f2.webp 400w,
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_2dc9fa7d113bfb03215e1dfb062fecaa.webp 760w,
+               /post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/press2_huaf280689b76e48df836e12abb6998ac6_178338_1d8a3bc03577d85d3a9f7bf9989152f2.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Taking the stem out
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+While taking the stem out, keep the switch in your hand and make sure that the stem will fall out in a box / safe place.&lt;/p&gt;
+&lt;p&gt; 4. Keep the stem in a safe place for a moment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-stem-of-k3e3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Stem of K3E3&#34; srcset=&#34;
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_1e2c87c4882230928632a86d57f34cdc.webp 400w,
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_4eca04f20ed74e935b9d28e954e6c413.webp 760w,
+               /post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/stem3_hudfd69a2a5b13d963fdb6577ed236ceae_97543_1e2c87c4882230928632a86d57f34cdc.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Stem of K3E3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-stem-and-spring-separated&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Stem and spring separated&#34; srcset=&#34;
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_b678b6107d2f8b6fbc66d5493a1c90f1.webp 400w,
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_70be17762d1b113a0d180ce9126086a6.webp 760w,
+               /post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/stem4_hu3c9a3553380464da12cc0d98b11232cb_149445_b678b6107d2f8b6fbc66d5493a1c90f1.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Stem and spring separated
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt; 5. Now use tweezers to open the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-opening-of-k3e3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Opening of K3E3&#34; srcset=&#34;
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_bf8851b663f57c265cc20e9602629e84.webp 400w,
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_d9ed669c59c9b237fb246f32e0a331db.webp 760w,
+               /post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/opening1_huc17033808ca7910b2eb13097daf8b558_78911_bf8851b663f57c265cc20e9602629e84.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Opening of K3E3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-opened-of-k3e3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Opened of K3E3&#34; srcset=&#34;
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_bcfd46702ba06fa65de822c81ae1647a.webp 400w,
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_3256c81d58a51b250275dd2d55b21b30.webp 760w,
+               /post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/opening2_hu38d9a9afc052017ab287cd773a238348_347335_bcfd46702ba06fa65de822c81ae1647a.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Opened of K3E3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Please don&amp;rsquo;t move the spring you see in the open switch. They need to be left in their places. The big spring is creating the actuation force. The small spring is responsible for creating a tactile bump.&lt;/p&gt;
+&lt;p&gt; 6. Now take the stem without the spring and insert it from the bottom of the switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-inserting-the-stem-into-k3e3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Inserting the stem into K3E3&#34; srcset=&#34;
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_f92aef638d5ffeaac879c275c90c1072.webp 400w,
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_45a1c2dd0200a1488a431e7d663eb555.webp 760w,
+               /post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly1_hu983d72f2d81ecc57ea387242bee206c0_96310_f92aef638d5ffeaac879c275c90c1072.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Inserting the stem into K3E3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-opened-k3e3-switch&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Opened K3E3 switch&#34; srcset=&#34;
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_20f8e44ec408e5e84f3055d4b313deef.webp 400w,
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_b636e69f9ba96fd1cfef755f0d370f9f.webp 760w,
+               /post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly2_hu44a378f4f925760f9f35af073009a6c4_86914_20f8e44ec408e5e84f3055d4b313deef.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Opened K3E3 switch
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Then place the small spring from the inner side of the switch bottom.&lt;/p&gt;
+&lt;p&gt; 7. Now pre-insert the brown part back into the place, but do not press fully yet. We need to move the tactile spring to the correct position.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-preinsertion&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Preinsertion&#34; srcset=&#34;
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_ddb38ae6ee5c76152deb82206c381cba.webp 400w,
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_6434ef1539e8ba4152696e0a47b8aa5f.webp 760w,
+               /post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly3_hu841ae69e9d04eef96bbdbe1c94fff1b2_128400_ddb38ae6ee5c76152deb82206c381cba.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Preinsertion
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-placing-the-tactile-spring&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Placing the tactile spring&#34; srcset=&#34;
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_4cc3dc99712a9f74ef23dccb2d327439.webp 400w,
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_2fe51736c7750cc46b6a6c7037b45eb8.webp 760w,
+               /post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly4_hu28de1ffb130b9d666fe0d0264b196903_84911_4cc3dc99712a9f74ef23dccb2d327439.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Placing the tactile spring
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-full-press&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Full press&#34; srcset=&#34;
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_91976e7424131c71e00160b0d5d7d476.webp 400w,
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_b1bccdbf9b95240bacd4c87899f8f12f.webp 760w,
+               /post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly5_hu277b7165ff309bbbcb18e9a725ee0d6f_145958_91976e7424131c71e00160b0d5d7d476.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Full press
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-closing&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Closing&#34; srcset=&#34;
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_dedc64629402f7d76c1ace899e725105.webp 400w,
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_df727fcb4c7ce27e4e11ecfde48412a8.webp 760w,
+               /post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;/post/k3e3_fix/assembly6_hud05b0b17609ee7f90c31ba3986f05a0e_85336_dedc64629402f7d76c1ace899e725105.webp&#34;
+               width=&#34;300&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Closing
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+When fully pressed and tactile spring on place, secure the stem in the brown part pressing from the bottom side with tweezers.
+And finally, close the switch entirely. The upgrade is finished.&lt;/p&gt;
+&lt;p&gt;This post was typed on the upgraded K3E3. The fix took about 4 hours and improved typing speed by a factor of two, and reduced the error rate by a factor of 6.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes | Misha Usvyatsov</title>
+    <link>/home/</link>
+      <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hued5d90fb46c664a563d402eb198cccb9_29588_512x512_fill_lanczos_center_3.png</url>
+      <title>Homes</title>
+      <link>/home/</link>
+    </image>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/home/publications/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Quickly discover relevant content by &lt;a href=&#34;./publication/&#34;&gt;filtering publications&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I taught the following courses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Teaching assistant of &lt;strong&gt;&lt;a href=&#34;http://www.prs.igp.ethz.ch/content/specialinterest/baug/institute-igp/photogrammetry-and-remote-sensing/en/group/people/person-detail.html?persid=143986&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Konrad Schindler&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Image Interpretation, Fall 2017 - 2021 Zürich, Switzerland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Teaching assistant of &lt;strong&gt;&lt;a href=&#34;https://slefkimmiatis.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Stamatios Lefkimmiatis&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Signal and Image Processing, Spring 2017, Moscow, Russia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Course instructor.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Deep Learning, May 2017, April 2021, Yerevan, Armenia&lt;/li&gt;
+&lt;li&gt;Introduction to Scientific Computing, Fall 2018 - 2023 Zürich, Switzerland&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
