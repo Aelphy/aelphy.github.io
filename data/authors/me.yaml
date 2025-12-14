@@ -1,0 +1,168 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dr. Sc. Misha Usvyatsov
+  given: Misha
+  family: Usvyatsov
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns:
+postnominals:
+  - Dr.Sc.
+status:
+  icon: "☕️"
+role: General Chaos (Software Engineer)
+bio: |
+  I am a Software Engineer at Google working on efficient on-device computing.
+
+  I earned my PhD at ETH Zürich in the Photogrammetry and Remote Sensing Lab, supervised by Prof. Dr. Konrad Schindler.
+  Before moving to Switzerland I completed my masters in Moscow where I graduated with honors from Moscow Institute of Physics and Technology (MIPT) and from Skolkovo Institute of Science and Technology (Skoltech).
+  
+  I started my expansion towards west with a move to Kazan (where I spent 1 year at Innopolis) from Ekaterinburg (where I grew up and made my first bachelor degree in electrical engineering and graduated with honors from Ural Federal University).
+
+affiliations:
+  - name: Google
+    url: https://google.com/
+
+links:
+  - icon: at-symbol
+    url: mailto:m.usvyatsov+githubio@gmail.com
+    label: E-mail Me
+  - icon: brands/x
+    url: https://x.com/example
+  - icon: brands/github
+    url: https://github.com/aelphy
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/aelphy/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Z8TFiEEAAAAJ
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
+
+interests:
+  - Programming
+  - Computer Vision, ML & DL
+  - DIY & Hacking
+  - BJJ
+
+education:
+  - degree: Dr.Sc. Computer Science
+    institution: ETH Zurich, Zurich, Switzerland
+    start: 2017-10-01
+    end: 2022-11-01
+    summary: |
+      Thesis on potential and limitations of tensor methods for learning on visual data.
+      Supervised by [Prof. Dr. Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986).
+      Research areas: Deep Learning, Tensors, Computer Vision.
+    button:
+      text: Download dissertation
+      url: https://www.research-collection.ethz.ch/entities/publication/e14d5a49-3aa6-4b9b-9d1b-9208cc7801f9
+      icon: hero/arrow-down-tray
+  - degree: M.Sc. Data Analysis
+    institution: Skoltech, Moscow, Russia
+    start: 2015-09-01
+    end: 2017-06-01
+  - degree: M.Sc. System Programming
+    institution: MIPT, Moscow, Russia
+    start: 2015-09-01
+    end: 2017-06-01
+  - degree: B.Sc. Computer Science
+    institution: Innopolis, Kazan, Russia
+    start: 2014-09-01
+    end: 2015-06-01
+  - degree: B.Eng. Electrical Engineering
+    institution: UrFU, Ekaterinburg, Russia
+    start: 2010-09-01
+    end: 2014-06-01
+
+experience:
+  - role: Software Engineer
+    org: Google
+    start: 2022-11-07
+    summary: |
+      Software Engineer at On-Device Performance Group.
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
+  - role: PhD Student & Research Assistant
+    org: ETH Zürich
+    start: 2017-10-01
+    end: 2022-11-01
+    summary: |
+      Thesis on potential and limitations of tensor methods for learning on visual data.
+      Supervised by [Prof. Dr. Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986).
+      Research areas: Deep Learning, Tensors, Computer Vision.
+  - role: Research Intern
+    org: Google
+    start: 2021-07-01
+    end: 2021-10-01
+    summary: |
+      Research Intern at Mobile Vision Group.
+  - role: Research Intern
+    org: Apple
+    start: 2020-04-01
+    end: 2020-08-01
+    summary: |
+      Research Intern at Special Projects Group.
+  - role: Software Engineering Intern
+    org: ProtonMail
+    start: 2017-06-01
+    end: 2017-08-01
+    summary: |
+      * Applied LSH for SPAM detection
+      * Developed the system for import/export of emails for the ProtonMail system
+  - role: Research Intern
+    org: Yandex
+    start: 2016-06-01
+    end: 2017-06-01
+    summary: |
+      Worked with [Prof. Andrey Ustyuzhanin](https://www.linkedin.com/in/andreyustyuzhanin) in close collaboration with CERN.
+      * Worked on muon tracks simulation with Generative Adversarial Networks
+      * Developed efficient architecture (50x to 30% FLOPS speedup, depending on the problem)
+
+skills:
+  - name: Technical
+    items:
+      - label: "Software Development: Python, C/C++"
+        level: 4
+      - label: ML & DL
+        level: 4
+      - label: Debugging
+        level: 4
+      - label: Scientific Method
+        level: 4
+  - name: Hobbies
+    items:
+      - label: Hiking, Paragliding, Snowboarding, Swimming
+        level: 4
+      - label: BJJ, Sambo, Judo
+        level: 4
+      - label: "DIY: 3D Modeling & Printing, Soldering, Hacking, Other" 
+        level: 4
+      - label: Coffee
+        level: 4
+      - label: Chess, Go
+        level: 4
+
+languages:
+  - name: English
+    level: 3.5
+    label: Professional
+  - name: German
+    level: 3
+    label: Fluent
+  - name: Hebrew
+    level: 1
+    label: Beginner
+  - name: Russian
+    level: 4
+    label: Native
+
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy
