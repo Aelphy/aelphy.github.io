@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 🧠 Sharpen your thinking with a second brain
 summary: Create a personal knowledge base and share your knowledge with your peers.
 date: 2023-10-26
@@ -137,4 +137,4 @@ Or use the `warning` callout type so your readers don't miss critical details:
 > [!WARNING]
 > A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 
-## Did you find this page helpful? Consider sharing it 🙌
+## Did you find this page helpful? Consider sharing it 🙌 -->

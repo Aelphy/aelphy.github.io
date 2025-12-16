@@ -1,4 +1,4 @@
----
+<!-- ---
 linkTitle: Hugo Blox
 title: Learn Hugo Blox in 10 minutes!
 date: 2025-09-24
@@ -25,4 +25,4 @@ This course provides a brief introduction to creating and editing your site with
 
 {{< cards >}}
   {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Setup your new site in just 5 minutes!" >}}
-{{< /cards >}}
+{{< /cards >}} -->

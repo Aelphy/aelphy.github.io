@@ -1,4 +1,4 @@
----
+<!-- ---
 title: ⚡️ Turn Jupyter Notebooks into Blog Posts
 summary: Publish your data science and research directly from Jupyter Notebooks. No screenshots required.
 date: 2024-07-15
@@ -67,4 +67,4 @@ Below is a live example of a notebook rendered right here in this post. Notice h
 - **Link your papers:** Use the Embed shortcode to link your notebook to your latest arXiv preprint or GitHub repository.
 - **Get help:** Join the community on [Discord](https://discord.gg/z8wNYzb) or check the [documentation](https://docs.hugoblox.com).
 
-Happy researching! 🚀
+Happy researching! 🚀 -->

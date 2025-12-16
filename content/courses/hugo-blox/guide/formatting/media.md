@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Embed Media
 summary: Easily embed audio and video media in Hugo sites
 date: 2023-10-24
@@ -129,4 +129,4 @@ renders as
 
 {{< icon name="python" >}} Python
 
-## Did you find this page helpful? Consider sharing it 🙌
+## Did you find this page helpful? Consider sharing it 🙌 -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 📈 Communicate your results effectively with the best data visualizations
 summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
 date: 2023-10-25
@@ -249,4 +249,4 @@ Add engaging call-to-action buttons to your data visualization posts:
 {{</* button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" */>}}Open in Colab{{</* /button */>}}
 ```
 
-## Did you find this page helpful? Consider sharing it 🙌
+## Did you find this page helpful? Consider sharing it 🙌 -->
